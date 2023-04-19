@@ -6,7 +6,7 @@ import classes from "./MeetupItem.module.css";
 const MeetupItem = (props) => {
   return (
     <li key={props.id} className={classes.item}>
-      <Card className={}>
+      <Card>
         <div className={classes.image}>
           <img src={props.image} alt={props.title}></img>
         </div>
